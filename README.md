@@ -1,4 +1,4 @@
-# JobHunter
+# Arachnode
 
 A self-hosted microservice application for tracking automated job discovery, contact enrichment, and cold email generation.
 
