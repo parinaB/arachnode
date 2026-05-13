@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Contributions-Always%20Welcome-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Built%20for-Job Discovery-red?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Made%20with-Python-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Beginner-Friendly-Yes-brightgreen?style=for-the-badge" />
+
 
 </div>
 
