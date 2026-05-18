@@ -1,19 +1,22 @@
 """
 pytest suite for normalize_date().
-
 Run from repo root:
-    pytest aggregator/utils/test_date_utils.py -v
+    pytest tests/unit/test_date_utils.py -v
 
-All tests are pure-stdlib — no extra dependencies beyond pytest itself.
-The _utcnow helper in date_utils is monkeypatched.
 """
 
 from __future__ import annotations
-
+import os
+import sys
 from datetime import datetime, timezone
 from unittest.mock import patch
 
 import pytest
+
+sys.path.insert(
+    0,
+    os.path.join(os.path.dirname(__file__), "..", "..", "aggregator-service")
+)
 
 from utils.date_utils import normalize_date
 
