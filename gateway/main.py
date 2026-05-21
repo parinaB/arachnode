@@ -252,8 +252,9 @@ async def workflow_apply(body: WorkflowRequest):
         logger.warning("Email generation failed: %s", exc)
         email = None
 
-    return {
-        "job":      job,
-        "contacts": contacts,
+   return {
+        "job":         job,
+        "contacts":    contacts,
         "draft_email": email,
     }
+
